@@ -85,7 +85,7 @@
 
 ## 3 Диаграмма последовательности
 Диаграмма последовательности основных вариантов использования представлена ниже:
-![Диаграмма последовательности](../Images/Diagram/sequence.jpg)
+![Диаграмма последовательности](../Images/Diagram/sequence.png)
 
 <a name="sost_diagramm"/>
 
@@ -94,23 +94,23 @@
 <a name="sost_dio"/>
 4.1 Рандомизация места 
 
-![Рандомизация места](../Images/Diagram/Randomize.jpg)
+![Рандомизация места](../Images/Diagram/Randomize.png)
 <a name="ra"/>
 4.2 Использование истории
-![Использование истории](../Images/Diagram/History.jpg)
+![Использование истории](../Images/Diagram/History.png)
 <a name="his"/>
 4.3 Удаление из истории
-![Удаление из истории](../Images/Diagram/Delet.jpg)
+![Удаление из истории](../Images/Diagram/Delet.png)
 <a name="del"/>
 
 ## 5 Диаграмма классов
 
-![Диаграмма классов](../Images/Diagram/ClassDiagram.jpg)
+![Диаграмма классов](../Images/Diagram/ClassDiagram.png)
 
 <a name="class"/>
 
 ## 6 Диаграмма компонентов и развёртывания
 
-![Диаграмма компонентов и развёртывания](../Images/Diagram/Deployment.jpg)
+![Диаграмма компонентов и развёртывания](../Images/Diagram/Deployment.png)
 
 <a name="comp"/>

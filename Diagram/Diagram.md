@@ -96,9 +96,13 @@
 
 ![Рандомизация места](../Images/Diagram/Randomize.png)
 <a name="ra"/>
+
+
 4.2 Использование истории
 ![Использование истории](../Images/Diagram/History.png)
 <a name="his"/>
+
+
 4.3 Удаление из истории
 ![Удаление из истории](../Images/Diagram/Delet.png)
 <a name="del"/>

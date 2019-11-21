@@ -1,14 +1,14 @@
 //
-//  TravelRandomizer_IOSUITests.swift
-//  TravelRandomizer_IOSUITests
+//  TrevalRandomizer_IOSUITests.swift
+//  TrevalRandomizer_IOSUITests
 //
-//  Created by Alexey on 10/24/19.
+//  Created by Alexey on 11/21/19.
 //  Copyright © 2019 Алексей. All rights reserved.
 //
 
 import XCTest
 
-class TravelRandomizer_IOSUITests: XCTestCase {
+class TrevalRandomizer_IOSUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -9,14 +9,15 @@
 /* Begin PBXBuildFile section */
 		FA433BBC2386A97300993072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA433BBB2386A97300993072 /* AppDelegate.swift */; };
 		FA433BBE2386A97300993072 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA433BBD2386A97300993072 /* SceneDelegate.swift */; };
-		FA433BC02386A97300993072 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA433BBF2386A97300993072 /* FirstViewController.swift */; };
-		FA433BC22386A97300993072 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA433BC12386A97300993072 /* SecondViewController.swift */; };
 		FA433BC52386A97300993072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA433BC32386A97300993072 /* Main.storyboard */; };
 		FA433BC82386A97300993072 /* TrevalRandomizer_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA433BC62386A97300993072 /* TrevalRandomizer_IOS.xcdatamodeld */; };
 		FA433BCA2386A97400993072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA433BC92386A97400993072 /* Assets.xcassets */; };
 		FA433BCD2386A97400993072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA433BCB2386A97400993072 /* LaunchScreen.storyboard */; };
 		FA433BD82386A97400993072 /* TrevalRandomizer_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA433BD72386A97400993072 /* TrevalRandomizer_IOSTests.swift */; };
 		FA433BE32386A97400993072 /* TrevalRandomizer_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA433BE22386A97400993072 /* TrevalRandomizer_IOSUITests.swift */; };
+		FA433BF12386ABBD00993072 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA433BF02386ABBD00993072 /* MapView.swift */; };
+		FA433BF32386ABD100993072 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA433BF22386ABD100993072 /* PlaceView.swift */; };
+		FA433BF52386ABE300993072 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA433BF42386ABE300993072 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +41,6 @@
 		FA433BB82386A97300993072 /* TrevalRandomizer_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrevalRandomizer_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA433BBB2386A97300993072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA433BBD2386A97300993072 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA433BBF2386A97300993072 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FA433BC12386A97300993072 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FA433BC42386A97300993072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA433BC72386A97300993072 /* TrevalRandomizer_IOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrevalRandomizer_IOS.xcdatamodel; sourceTree = "<group>"; };
 		FA433BC92386A97400993072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +52,9 @@
 		FA433BDE2386A97400993072 /* TrevalRandomizer_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrevalRandomizer_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA433BE22386A97400993072 /* TrevalRandomizer_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrevalRandomizer_IOSUITests.swift; sourceTree = "<group>"; };
 		FA433BE42386A97400993072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA433BF02386ABBD00993072 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FA433BF22386ABD100993072 /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		FA433BF42386ABE300993072 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +107,9 @@
 			children = (
 				FA433BBB2386A97300993072 /* AppDelegate.swift */,
 				FA433BBD2386A97300993072 /* SceneDelegate.swift */,
-				FA433BBF2386A97300993072 /* FirstViewController.swift */,
-				FA433BC12386A97300993072 /* SecondViewController.swift */,
+				FA433BF02386ABBD00993072 /* MapView.swift */,
+				FA433BF22386ABD100993072 /* PlaceView.swift */,
+				FA433BF42386ABE300993072 /* HistoryView.swift */,
 				FA433BC32386A97300993072 /* Main.storyboard */,
 				FA433BC92386A97400993072 /* Assets.xcassets */,
 				FA433BCB2386A97400993072 /* LaunchScreen.storyboard */,
@@ -265,9 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA433BC22386A97300993072 /* SecondViewController.swift in Sources */,
 				FA433BC82386A97300993072 /* TrevalRandomizer_IOS.xcdatamodeld in Sources */,
-				FA433BC02386A97300993072 /* FirstViewController.swift in Sources */,
+				FA433BF52386ABE300993072 /* HistoryView.swift in Sources */,
+				FA433BF12386ABBD00993072 /* MapView.swift in Sources */,
+				FA433BF32386ABD100993072 /* PlaceView.swift in Sources */,
 				FA433BBC2386A97300993072 /* AppDelegate.swift in Sources */,
 				FA433BBE2386A97300993072 /* SceneDelegate.swift in Sources */,
 			);
@@ -381,6 +385,8 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -434,6 +440,8 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -451,6 +459,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "TRTPO.TrevalRandomizer-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -469,6 +478,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "TRTPO.TrevalRandomizer-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

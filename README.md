@@ -4,4 +4,5 @@
 ### System: iOS
 
 ### Requirements: ([Eng](/Documents/Software%20Requirements%20Specification.md))
-### Diagram: ([Rus](/Diagram/Diagram.md))
+### Diagram: ([Rus](/Diagram/Diagram.md))   
+### Tests Results([Rus](/Documents/TestsResults.md)

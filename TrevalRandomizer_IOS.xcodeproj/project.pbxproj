@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FA02859123A7D14200651829 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02858B23A7D14200651829 /* FirstViewController.swift */; };
 		FA02859223A7D14200651829 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02858C23A7D14200651829 /* SecondViewController.swift */; };
-		FA02859323A7D14200651829 /* CellMas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02858D23A7D14200651829 /* CellMas.swift */; };
 		FA02859523A7D14200651829 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02858F23A7D14200651829 /* SceneDelegate.swift */; };
 		FA02859923A7D16400651829 /* ApiWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02859723A7D16400651829 /* ApiWork.swift */; };
 		FA02859C23A7D1F700651829 /* TRfIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA02859A23A7D1F700651829 /* TRfIOS.xcdatamodeld */; };
@@ -46,7 +45,6 @@
 /* Begin PBXFileReference section */
 		FA02858B23A7D14200651829 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		FA02858C23A7D14200651829 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		FA02858D23A7D14200651829 /* CellMas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellMas.swift; sourceTree = "<group>"; };
 		FA02858F23A7D14200651829 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FA02859723A7D16400651829 /* ApiWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiWork.swift; sourceTree = "<group>"; };
 		FA02859B23A7D1F700651829 /* TRfIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TRfIOS.xcdatamodel; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 				FA02859723A7D16400651829 /* ApiWork.swift */,
 				FA433BF02386ABBD00993072 /* MapView.swift */,
 				FA433BF22386ABD100993072 /* PlaceView.swift */,
-				FA02858D23A7D14200651829 /* CellMas.swift */,
 				FA02858B23A7D14200651829 /* FirstViewController.swift */,
 				FA433BF42386ABE300993072 /* HistoryView.swift */,
 				FA02858F23A7D14200651829 /* SceneDelegate.swift */,
@@ -295,7 +292,6 @@
 				FA02859E23A7D35700651829 /* ViewController.swift in Sources */,
 				FA433BBC2386A97300993072 /* AppDelegate.swift in Sources */,
 				FA433BBE2386A97300993072 /* SceneDelegate.swift in Sources */,
-				FA02859323A7D14200651829 /* CellMas.swift in Sources */,
 				FA02859923A7D16400651829 /* ApiWork.swift in Sources */,
 				FA02859523A7D14200651829 /* SceneDelegate.swift in Sources */,
 			);

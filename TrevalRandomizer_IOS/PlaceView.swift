@@ -17,9 +17,11 @@ class PlaceView: HistoryView {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        if indexTap != 0 {
         let place = placeList[indexTap]
         imageView.image = URLRequest(url: place.value(forKey: "imageData") as! URL) as? UIImage
         infOfPlace.text = place.value(forKey: "infoData") as? String
+        }
 
     }
 }

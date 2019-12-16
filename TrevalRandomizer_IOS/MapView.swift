@@ -18,10 +18,10 @@ class MapView: UIViewController{
         let contry = api.randomize()
         repeat {
             let loc:(urli:String,text:String,lat:Double,log:Double) = api.apiOpenWeather(contry: contry.contry)
-                       if (cordin.count != 0){
+                if (cordin.count != 0){
                         let _ = mapingConstract(latilube: loc.lat, logitube: loc.log, cityTitle: contry.city, cantryTitle: contry.contry)
-            }else {}
-            } while( cordin.count == 0)
+                }
+            } while(cordin.count == 0)
             viewDidLoad()
 
         }

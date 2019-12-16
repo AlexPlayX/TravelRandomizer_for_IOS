@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  TrevalRandomizer_IOS
+//  TRfIOS
 //
-//  Created by Alexey on 11/21/19.
+//  Created by Alexey on 12/5/19.
 //  Copyright © 2019 Алексей. All rights reserved.
 //
 

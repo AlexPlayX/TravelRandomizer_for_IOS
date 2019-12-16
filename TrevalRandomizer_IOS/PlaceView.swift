@@ -10,6 +10,16 @@ import Foundation
 import UIKit
 
 
-class PlaceView: UIViewController {
+class PlaceView: HistoryView {
 
+    @IBOutlet var imageView : UIImageView!
+    @IBOutlet var infOfPlace: UITextView!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let place = placeList[indexTap]
+        imageView.image = URLRequest(url: place.value(forKey: "imageData") as! URL) as? UIImage
+        infOfPlace.text = place.value(forKey: "infoData") as? String
+
+    }
 }

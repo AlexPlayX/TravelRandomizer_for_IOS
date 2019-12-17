@@ -16,7 +16,7 @@
 
 # 1 Введение  
 
-Данный документ описывает план тестирования приложения ["MinskLandmarks"](https://github.com/yezhidal/tetris-kombat).
+Данный документ описывает план тестирования приложения ["TetrisKombat"](https://github.com/yezhidal/tetris-kombat).
 
 <a name="items"/>  
 

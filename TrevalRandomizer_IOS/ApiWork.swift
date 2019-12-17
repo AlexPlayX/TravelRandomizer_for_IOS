@@ -14,7 +14,7 @@ var urli:String = ""
 var text:String = ""
 
 
-class ApiWork: NSLock {
+class ApiWork {
 
     func randomize() -> (contry:String,city:String){
         sync()
@@ -72,7 +72,6 @@ class ApiWork: NSLock {
                 print("statusCode should be 200, but is \(httpStatus.statusCode)")
                 print("response = \(response )")
             }
-            print(data)
             let str = (String(data: data, encoding: .utf8)!) as Codable
             //let rid = String(data: str as! Data, encoding: .utf8) as Codable
             guard

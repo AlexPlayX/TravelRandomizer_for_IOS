@@ -26,6 +26,10 @@ class MapView: UIViewController{
 
         }
 
+    @IBAction func testLondon(_ sender: NSLock) {
+        let _ = mapingConstract(latilube:51.5085300 , logitube:-0.1257400, cityTitle:"London" , cantryTitle:"Britan" )
+
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

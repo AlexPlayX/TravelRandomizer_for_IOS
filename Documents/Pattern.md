@@ -9,7 +9,7 @@
 Принцип рабты:
 ![Guard Pattern](../Images/Pattern/Guard.jpg)
 
-Пример в коде: 
+Пример в коде:\n
 ![Guard Pattern in Code](../Images/Pattern/GuardCode.jpg)
 
 ### Bilder 

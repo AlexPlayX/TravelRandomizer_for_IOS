@@ -36,7 +36,7 @@ class MapView: UIViewController{
         super.viewDidLoad()
     }
 
-    func mapingConstract(latilube:Double, logitube:Double, cityTitle:String, cantryTitle:String) -> (Bool){
+    private func mapingConstract(latilube:Double, logitube:Double, cityTitle:String, cantryTitle:String) -> (Bool){
         let location = CLLocationCoordinate2DMake(latilube, logitube)
         let span = MKCoordinateSpan(latitudeDelta: 0.100, longitudeDelta: 0.100)
         let region = MKCoordinateRegion(center: location, span: span)

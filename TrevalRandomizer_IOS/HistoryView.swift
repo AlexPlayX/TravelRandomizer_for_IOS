@@ -47,7 +47,7 @@ class HistoryView:ViewController, UITableViewDataSource, UITableViewDelegate{
        indexTap=indexPath.row
         print(indexTap)
     }
-    func savePlace(contry:String,info:String,image:String) {
+    public func savePlace(contry:String,info:String,image:String) {
      let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
             let place = PlaseListData(entity: PlaseListData.entity(), insertInto: context)
             place.setValue(contry, forKey: "contryData")

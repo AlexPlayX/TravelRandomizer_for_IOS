@@ -10,19 +10,18 @@ import Foundation
 import UIKit
 import MapKit
 import CoreLocation
-import RxSwift
 
 class MapView: UIViewController{
     @IBOutlet var map: MKMapView!
-    @IBAction func randPlace() {
+    @IBAction func randPlace(_ sender: NSLock) {
         let api:ApiWork = ApiWork()
         let contry = api.randomize()
+        repeat {
             let loc:(urli:String,text:String,lat:Double,log:Double) = api.apiOpenInfo(contry: contry.contry)
-        let lat = Observable.just(loc.lat)
-        lat.subscribe({ (event:Event<Double>) in
-//            let _ = self.mapingConstract(latilube: loc.lat, logitube: loc.log, cityTitle: contry.city, cantryTitle: contry.contry)
-            print(event)
-        })
+                if (cordin.count != 0){
+                        let _ = mapingConstract(latilube: loc.lat, logitube: loc.log, cityTitle: contry.city, cantryTitle: contry.contry)
+                }
+            } while(cordin.count == 0)
             viewDidLoad()
 
         }

@@ -7,8 +7,6 @@
 //
 
 import Foundation
-import RxSwift
-
 
 
 var cordin:String = ""
@@ -19,7 +17,9 @@ var text:String = ""
 class ApiWork {
 
     public func randomize() -> (contry:String,city:String){
-     let contrys = "+Abkhazia-Sukhumi+Afghanistan-Kabul+Albania-Tirana+Algeria-Algiers+Andorra-Andorra+Angola-Luanda+Antigua-Saint+Argentina-Buenos+Armenia-Yerevan+Australia-Canberra+Austria-Vienna+Azerbaijan-Baku+Bahamas-Nassau+Bahrain-Manama+Bangladesh-Dhaka+Barbados-Bridgetown+Belarus-Minsk+Belgium-Brussels+Belize-Belmopan+Benin-Porto-Novo+Bhutan-Thimphu+Bolivia-Sucre+Bosnia-Sarajevo+Botswana-Gaborone+Brazil-Brasilia+Brunei-Bandar+Bulgaria-Sofia+Burkina-Ouagadougou+Burundi-Gitega+Cambodia-Phnom+Cameroon-Yaounde+Canada-Ottawa+Cape-Praia+Central-Bangui+Chad-NDjamena+Chile-Santiago+China-Beijing+Colombia-Bogota+Comoros-Moroni+Congo-Brazzaville+Costa-San+Cote-Yamoussoukro+Croatia-Zagreb+Cuba-Havana+Cyprus-Nicosia+Czech-Prague+Denmark-Copenhagen+Djibouti-Djibouti+Dominica-Roseau+Dominican-Santo+DR-Kinshasa+East-Dili+Ecuador-Quito+Egypt-Cairo+El-San+Equatorial-Malabo+Eritrea-Asmara+Estonia-Tallinn+Eswatini-Mbabane+Ethiopia-Addis+Federated+Micronesia+Micronesia-Palikir+Fiji-Suva+Finland-Helsinki+France-Paris+Gabon-Libreville+Gambia-Banjul+Georgia-Tbilisi+Germany-Berlin+Ghana-Accra+Greece-Athens+Grenada-Saint+Guatemala-Guatemala+Guinea-Conakry+Guinea-Bissau+Guyana-Georgetown+Haiti-Port-au-Prince+Honduras-Tegucigalpa+Hungary-Budapest+Iceland-Reykjavik+India-New+Indonesia-Jakarta+Iran-Tehran+Iraq-Baghdad+Ireland-Dublin+Israel-Jerusalem+Italy-Rome+Jamaica-Kingston+Japan-Tokyo+Jordan-Amman+Kazakhstan-Nur-Sultan+Kenya-Nairobi+Kiribati-Tarawa+Kuwait-Kuwait+Kyrgyzstan-Bishkek+Laos-Vientiane+Latvia-Riga+Lebanon-Beirut+Lesotho-Maseru+Liberia-Monrovia+Libya-Tripoli+Liechtenstein-Vaduz+Lithuania-Vilnius+Luxembourg-Luxembourg+Macedonia-Skopje+Madagascar-Antananarivo+Malawi-Lilongwe+Malaysia-Kuala+Maldives-Male+Mali-Bamako+Malta-Valletta+Marshall-Majuro+Mauritania-Nouakchott+Mauritius-Port+Mexico-Mexico+Moldova-Chisinau+Monaco-Monaco+Mongolia-Ulaanbaatar+Montenegro-Podgorica+Morocco-Rabat+Mozambique-Maputo+Myanmar-Naypyidaw+Namibia-Windhoek+Nauru-No+Nepal-Kathmandu+Netherlands-Amsterdam+New-Wellington+Nicaragua-Managua+Niger-Niamey+Nigeria-Abuja+North-Pyongyang+Norway-Oslo+Oman-Muscat+Pakistan-Islamabad+Palau-Ngerulmud+Panama-Panama+Papua-Port+Paraguay-Asuncion+Peru-Lima+Philippines-Manila+Poland-Warsaw+Portugal-Lisbon+Qatar-Doha+Romania-Bucharest+Russia-Moscow+Rwanda-Kigali+Saint-Basseterre+Saint-Castries+Saint-Kingstown+Samoa-Apia+San-San+Sao-Sao+Saudi-Riyadh+Senegal-Dakar+Serbia-Belgrade+Seychelles-Victoria+Sierra-Freetown+Singapore-Singapore+Slovakia-Bratislava+Slovenia-Ljubljana+Solomon-Honiara+Somalia-Mogadishu+South-Pretoria+South-Seoul+South-Tskhinvali+South-Juba+Spain-Madrid+Sri-Sri+State+Palestine+Palestine-Jerusalem+Sudan-Khartoum+Suriname-Paramaribo+Sweden-Stockholm+Switzerland-Bern+Syria-Damascus+Tajikistan-Dushanbe+Tanzania-Dodoma+Thailand-Bangkok+Togo-Lome+Tonga-Nukualofa+Trinidad-Port-of-Spain+Tunisia-Tunis+Turkey-Ankara+Turkmenistan-Ashgabat+Tuvalu-Funafuti+Uganda-Kampala+Ukraine-Kyiv+United-Abu+United-London+United+America+America-Washington+Uruguay-Montevideo+Uzbekistan-Tashkent+Vanuatu-Port-Vila+Vatican-Vatican+Venezuela-Caracas+Vietnam-Hanoi+Yemen-Sanaa+Zambia-Lusaka+Zimbabwe-Harare    "
+        sync()
+    let contrys = "+Abkhazia-Sukhumi+Afghanistan-Kabul+Albania-Tirana+Algeria-Algiers+Andorra-Andorra+Angola-Luanda+Antigua-Saint+Argentina-Buenos+Armenia-Yerevan+Australia-Canberra+Austria-Vienna+Azerbaijan-Baku+Bahamas-Nassau+Bahrain-Manama+Bangladesh-Dhaka+Barbados-Bridgetown+Belarus-Minsk+Belgium-Brussels+Belize-Belmopan+Benin-Porto-Novo+Bhutan-Thimphu+Bolivia-Sucre+Bosnia-Sarajevo+Botswana-Gaborone+Brazil-Brasilia+Brunei-Bandar+Bulgaria-Sofia+Burkina-Ouagadougou+Burundi-Gitega+Cambodia-Phnom+Cameroon-Yaounde+Canada-Ottawa+Cape-Praia+Central-Bangui+Chad-NDjamena+Chile-Santiago+China-Beijing+Colombia-Bogota+Comoros-Moroni+Congo-Brazzaville+Costa-San+Cote-Yamoussoukro+Croatia-Zagreb+Cuba-Havana+Cyprus-Nicosia+Czech-Prague+Denmark-Copenhagen+Djibouti-Djibouti+Dominica-Roseau+Dominican-Santo+DR-Kinshasa+East-Dili+Ecuador-Quito+Egypt-Cairo+El-San+Equatorial-Malabo+Eritrea-Asmara+Estonia-Tallinn+Eswatini-Mbabane+Ethiopia-Addis+Federated+Micronesia+Micronesia-Palikir+Fiji-Suva+Finland-Helsinki+France-Paris+Gabon-Libreville+Gambia-Banjul+Georgia-Tbilisi+Germany-Berlin+Ghana-Accra+Greece-Athens+Grenada-Saint+Guatemala-Guatemala+Guinea-Conakry+Guinea-Bissau+Guyana-Georgetown+Haiti-Port-au-Prince+Honduras-Tegucigalpa+Hungary-Budapest+Iceland-Reykjavik+India-New+Indonesia-Jakarta+Iran-Tehran+Iraq-Baghdad+Ireland-Dublin+Israel-Jerusalem+Italy-Rome+Jamaica-Kingston+Japan-Tokyo+Jordan-Amman+Kazakhstan-Nur-Sultan+Kenya-Nairobi+Kiribati-Tarawa+Kuwait-Kuwait+Kyrgyzstan-Bishkek+Laos-Vientiane+Latvia-Riga+Lebanon-Beirut+Lesotho-Maseru+Liberia-Monrovia+Libya-Tripoli+Liechtenstein-Vaduz+Lithuania-Vilnius+Luxembourg-Luxembourg+Macedonia-Skopje+Madagascar-Antananarivo+Malawi-Lilongwe+Malaysia-Kuala+Maldives-Male+Mali-Bamako+Malta-Valletta+Marshall-Majuro+Mauritania-Nouakchott+Mauritius-Port+Mexico-Mexico+Moldova-Chisinau+Monaco-Monaco+Mongolia-Ulaanbaatar+Montenegro-Podgorica+Morocco-Rabat+Mozambique-Maputo+Myanmar-Naypyidaw+Namibia-Windhoek+Nauru-No+Nepal-Kathmandu+Netherlands-Amsterdam+New-Wellington+Nicaragua-Managua+Niger-Niamey+Nigeria-Abuja+North-Pyongyang+Norway-Oslo+Oman-Muscat+Pakistan-Islamabad+Palau-Ngerulmud+Panama-Panama+Papua-Port+Paraguay-Asuncion+Peru-Lima+Philippines-Manila+Poland-Warsaw+Portugal-Lisbon+Qatar-Doha+Romania-Bucharest+Russia-Moscow+Rwanda-Kigali+Saint-Basseterre+Saint-Castries+Saint-Kingstown+Samoa-Apia+San-San+Sao-Sao+Saudi-Riyadh+Senegal-Dakar+Serbia-Belgrade+Seychelles-Victoria+Sierra-Freetown+Singapore-Singapore+Slovakia-Bratislava+Slovenia-Ljubljana+Solomon-Honiara+Somalia-Mogadishu+South-Pretoria+South-Seoul+South-Tskhinvali+South-Juba+Spain-Madrid+Sri-Sri+State+Palestine+Palestine-Jerusalem+Sudan-Khartoum+Suriname-Paramaribo+Sweden-Stockholm+Switzerland-Bern+Syria-Damascus+Tajikistan-Dushanbe+Tanzania-Dodoma+Thailand-Bangkok+Togo-Lome+Tonga-Nukualofa+Trinidad-Port-of-Spain+Tunisia-Tunis+Turkey-Ankara+Turkmenistan-Ashgabat+Tuvalu-Funafuti+Uganda-Kampala+Ukraine-Kyiv+United-Abu+United-London+United+America+America-Washington+Uruguay-Montevideo+Uzbekistan-Tashkent+Vanuatu-Port-Vila+Vatican-Vatican+Venezuela-Caracas+Vietnam-Hanoi+Yemen-Sanaa+Zambia-Lusaka+Zimbabwe-Harare    "
+
         let contryChar = [Character](contrys)
         var flag = -1
         var contryCity : (contry:String, city:String) = ("", "")
@@ -56,7 +56,7 @@ class ApiWork {
         return contryCity
     }
 
-    private func apiOpenInfo(contry:String) -> (urli:String,text:String,lat:Double,log:Double){
+    public func apiOpenInfo(contry:String) -> (urli:String,text:String,lat:Double,log:Double){
         let urlSt="https://restcountries.eu/rest/v2/alpha/"+contry[0...2]
         let url=urlSt
         var _:(cordin:String,urli:String,text:String)
@@ -69,17 +69,16 @@ class ApiWork {
                 return
             }
             var _:(cordin:String,urli:String,text:String)
-            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200 {           // check for http errors
+            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200 {
                 print("statusCode should be 200, but is \(httpStatus.statusCode)")
                 print("response = \(response )")
             }
             let str = (String(data: data, encoding: .utf8)!) as Codable
             //let rid = String(data: str as! Data, encoding: .utf8) as Codable
-            let stringForm = Observable.just(str as? String)
-
-            stringForm.subscribe({ (event:Event<String?>)  in
-                print(event)
-            var charG = [Character]()
+            guard
+            let strigForm = str as? String
+                else {return}
+            var charG = [Character](strigForm)
             var cordinate:String = ""
             var urlJ:String = ""
             var flagD = 0
@@ -101,10 +100,9 @@ class ApiWork {
                 if( flagD == 1 && charG[kit+2] == "g"){
                     flagT = 0
                 }
-                if (flagT == 1)
-                                               {
-                                                  urlJ.append(charG[kit])
-                                              }
+                if (flagT == 1){
+                    urlJ.append(charG[kit])
+                }
             }
             cordin=cordinate
             urli=urlJ
@@ -119,43 +117,41 @@ class ApiWork {
             }
 
             text=String(charG)
-            })
-        }
 
+        }
         let hy=cor(cordinate: cordin)
         let hV = HistoryView()
         hV.savePlace(contry:contry, info:text, image:urli)
         return ( urli,text,hy.lat,hy.log)
         task.resume()
-    
         }
 
-    }
-private func cor(cordinate:String) ->(lat:Double,log:Double){
-    var latD:Double = 0
-    var logD:Double = 0
-    print ("")
-    let tit = [Character](cordinate)
-    repeat {
-        if (tit.count != 0){
-    var str:String = ""
-    for i in 0...tit.count{
+    private func cor(cordinate:String) ->(lat:Double,log:Double){
+        var latD:Double = 0
+        var logD:Double = 0
+        print ("")
+        let tit = [Character](cordinate)
+        repeat {
+            if (tit.count != 0){
+        var str:String = ""
+        for i in 0...tit.count{
 
-        str.append(tit[i])
-        if(tit[i]==","){
-            latD=Double(str)!
-        }else{
             str.append(tit[i])
+            if(tit[i]==","){
+                latD=Double(str)!
+            }else{
+                str.append(tit[i])
+            }
         }
+                logD=Double(str)!
+
+            }
+            else {}
+        } while(logD == 0)
+        return (latD, logD)
     }
-            logD=Double(str)!
 
-        }
-        else {}
-    } while(logD == 0)
-    return (latD, logD)
 }
-
 extension String {
     subscript (bounds: CountableClosedRange<Int>) -> String {
         let start = index(startIndex, offsetBy: bounds.lowerBound)
@@ -169,6 +165,9 @@ extension String {
         return String(self[start..<end])
     }
 }
+
+
+
 struct Product: Codable {
     var name:String
     var topLevelDomain:String
@@ -281,3 +280,4 @@ try container.encode(regionalBlocs,forKey:.regionalBlocs)
 
   }
 }
+
